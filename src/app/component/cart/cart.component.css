@@ -12,6 +12,9 @@ img {
   flex-direction: row;
   margin-bottom: 20px;
 }
+.subTotal{
+  font-weight: bold;
+}
 
 .cart-item-details {
   display: flex;

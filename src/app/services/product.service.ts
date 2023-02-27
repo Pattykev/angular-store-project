@@ -8,7 +8,7 @@ import Product from '../model/product';
   providedIn: 'root'
 })
 export class ProductService {
-  private dataSource='src/assets/data.json';
+  private dataSource='./assets/data.json';
 
   constructor(private http : HttpClient) { }
   getListProduct(): Observable<Product[]>{
